@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="personal.chencs.practice.UserMapper">
+
+	<select id="queryById">
+		SELECT id, name, age FROM user WHERE id = ?
+	</select>
+
+</mapper>
